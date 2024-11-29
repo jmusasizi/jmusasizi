@@ -1,0 +1,16 @@
+{
+  "name": "jmusasizi",
+  "version": "1.0.0",
+  "description": "seif learning",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "jmusasizi"
+  },
+  "author": "musasizi joseph",
+  "license": "ISC"
+}

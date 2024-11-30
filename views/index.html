@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Flight Booking Form</title>
+    <link rel="stylesheet" href="../public/css/passanger-details.css">
+</head>
+
+<body>
+    <div class="header">
+       <img src="../public/img/header.png" alt="">
+    </div>
+    <div class="content">
+        <form ac>
+            <div class="form-row">
+                <div class="form-col">
+                    <h1>passenger information</h1>
+                    <div class="form-input">
+                        <label for="fullName">Full Name<span>*</span></label>
+                        <input type="text" name="fullName" id="fullName">
+                        <span id="fullNameError" class="error">Invalid field</span>
+                    </div>
+                    <div class="form-input">
+                        <label for="gender">Gender<span>*</span></label>
+                        <input type="text" name="gender" id="gender">
+                        <span id="genderError" class="error">Invalid field</span>
+                    </div>
+                    <div class="form-input">
+                        <label for="dob">Date of Birth<span>*</span></label>
+                        <input type="date" name="dob" id="dob">
+                        <span id="dateError" class="error">Invalid field</span>
+                    </div>
+                    <div class="form-input">
+                        <label for="nationality">Nationality<span>*</span></label>
+                        <input type="text" name="nationality" id="nationality">
+                        <span id="nationalityError" class="error">Invalid field</span>
+                    </div>
+                </div>
+
+                <div class="form-col">
+                    <h1>contact information</h1>
+                    <div class="form-input">
+                        <label for="phone">Phone Number<span>*</span></label>
+                        <input type="text" name="phone" id="phone">
+                        <span id="phoneError" class="error">Invalid field</span>
+                    </div>
+                    <div class="form-input">
+                        <label for="email">Email Address<span>*</span></label>
+                        <input type="email" name="email" id="email">
+                        <span id="emailError" class="error">Invalid field</span>
+                    </div>
+                    <div class="form-input">
+                        <label for="pobox">P.O.BOX Number<span>*</span></label>
+                        <input type="text" name="pobox" id="pobox">
+                        <span id="poboxError" class="error">Invalid field</span>
+                    </div>
+                    <div class="form-input">
+                        <label for="emergencyPhone">Emergency Phone Number<span>*</span></label>
+                        <input type="text" name="emergencyPhone" id="emergencyPhone">
+                        <span id="emergencyPhoneError" class="error">Invalid field</span>
+                    </div>
+                </div>
+
+                <div class="form-col">
+                    <h1>flight information</h1>
+                    <div class="form-input">
+                        <label for="passportNumber">Passport Number<span>*</span></label>
+                        <input type="text" name="passportNumber" id="passportNumber">
+                        <span id="passportNumberError" class="error">Invalid field</span>
+                    </div>
+                    <div class="form-input">
+                        <label for="visa">Visa Document<span>*</span></label>
+                        <input type="file" name="visa" id="visa">
+                        <span id="visaError" class="error">Invalid field</span>
+                    </div>
+                    <div class="form-input">
+                        <label for="departureCity">Departure City<span>*</span></label>
+                        <input type="text" name="departureCity" id="departureCity">
+                        <span id="departureCityError" class="error">Invalid field</span>
+                    </div>
+                    <div class="form-input">
+                        <label for="destinationCity">Destination City<span>*</span></label>
+                        <input type="text" name="destinationCity" id="destinationCity">
+                        <span id="destinationCityError" class="error">Invalid field</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-footer">
+                <div class="submit-message" id="submit-message">
+
+                </div>
+                <div class="form-button">
+                    <button>submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+    <script src="../public/js/index.js"></script>
+
+</body>
+
+</html>

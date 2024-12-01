@@ -1,0 +1,94 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Online Flight Booking Form
+  link(rel='stylesheet' href='/css/passanger-details.css')
+.header
+  img(src='../public/img/header.png' alt='')
+.content
+  form(ac='')
+    .form-row
+      .form-col
+        h1 passenger information
+        .form-input
+          label(for='fullName')
+            | Full Name
+            span *
+          input#fullName(type='text' name='fullName')
+          span#fullNameError.error Invalid field
+        .form-input
+          label(for='gender')
+            | Gender
+            span *
+          input#gender(type='text' name='gender')
+          span#genderError.error Invalid field
+        .form-input
+          label(for='dob')
+            | Date of Birth
+            span *
+          input#dob(type='date' name='dob')
+          span#dateError.error Invalid field
+        .form-input
+          label(for='nationality')
+            | Nationality
+            span *
+          input#nationality(type='text' name='nationality')
+          span#nationalityError.error Invalid field
+      .form-col
+        h1 contact information
+        .form-input
+          label(for='phone')
+            | Phone Number
+            span *
+          input#phone(type='text' name='phone')
+          span#phoneError.error Invalid field
+        .form-input
+          label(for='email')
+            | Email Address
+            span *
+          input#email(type='email' name='email')
+          span#emailError.error Invalid field
+        .form-input
+          label(for='pobox')
+            | P.O.BOX Number
+            span *
+          input#pobox(type='text' name='pobox')
+          span#poboxError.error Invalid field
+        .form-input
+          label(for='emergencyPhone')
+            | Emergency Phone Number
+            span *
+          input#emergencyPhone(type='text' name='emergencyPhone')
+          span#emergencyPhoneError.error Invalid field
+      .form-col
+        h1 flight information
+        .form-input
+          label(for='passportNumber')
+            | Passport Number
+            span *
+          input#passportNumber(type='text' name='passportNumber')
+          span#passportNumberError.error Invalid field
+        .form-input
+          label(for='visa')
+            | Visa Document
+            span *
+          input#visa(type='file' name='visa')
+          span#visaError.error Invalid field
+        .form-input
+          label(for='departureCity')
+            | Departure City
+            span *
+          input#departureCity(type='text' name='departureCity')
+          span#departureCityError.error Invalid field
+        .form-input
+          label(for='destinationCity')
+            | Destination City
+            span *
+          input#destinationCity(type='text' name='destinationCity')
+          span#destinationCityError.error Invalid field
+    .form-footer
+      #submit-message.submit-message
+      .form-button
+        button submit
+script(src='/js/index.js')
